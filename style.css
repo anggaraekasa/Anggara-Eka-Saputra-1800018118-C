@@ -1,0 +1,48 @@
+body{
+  margin: 10;
+  background-color: #28c3d4;
+}
+.header{
+  padding: 20px;
+  border:1px solid white;
+  background-image: url("putih.jpg");
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.alamat{
+  font-size: 15px;
+}
+.topnav {
+  font-size: 20px;
+  background-image: url("garis.jpg");
+  overflow: hidden; 
+  list-style:none;
+  text-align:center;
+}
+.topnav li{
+    display:inline;
+}
+.topnav a {
+  display:inline-block;
+  color: blue;
+  padding: 15px 5px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.topnav a:hover {
+  background-color: #f2f6f5;
+  color: black;
+}
+.topnav a.active {
+  color: white;
+}
+.isi{
+  overflow: hidden; 
+  height: 390px;
+  width: 100%;
+  position: relative;
+  padding: 30px;
+}
+.tabel{
+  font-size: 35px;
+}
